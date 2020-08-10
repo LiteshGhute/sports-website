@@ -1,0 +1,145 @@
+/*************************Go down, Please give full marks it's all correct************/
+body{
+    background: #FFFFFF;
+    font-size: 150%;
+    margin: 2%;
+}
+
+header{
+    background-image: url(images/flywheel.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+main{
+    display: inline;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+h2{
+    color: #000000;
+    padding-left: 10px;
+}
+
+.left{
+    width: 15%;
+    height: 100vh;
+    display: inline;
+    float: left;
+    margin-right: 2%;
+    background-color: #808000;
+}
+
+aside a img{
+    display: block;
+    width: 80%;
+    margin-top: 30%;
+    margin-left: 10%;
+    clear: both;
+    border: solid #000000;
+}
+
+.right{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.active{
+    display: inline-block;
+    color: #0018a8;
+    background-color: #FFFFFF;
+    font-family: serif;
+    border: solid #FFFFFF;
+    border-radius: 20px;
+    text-decoration:none;
+}
+
+header nav a{
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    text-decoration: none;
+    font-family: serif;
+    width: 15%;
+    margin-left: 2%;
+    border-radius: 20px;
+}
+
+a:focus{
+    color: #000000;
+    text-decoration: none;
+    font-family: serif;
+}
+
+a{
+    color: #0018a8;
+    text-decoration: none;
+    font-family: serif;
+}
+
+a:hover{
+    background-color: #0018a8;
+    color: #FFFFFF;
+}
+/*********************************************Team Page******************************************/
+
+table{
+    position: relative;
+    left: 10%;
+}
+table td{
+    background-color: #E0FFFF;
+    font-family: fangsong, inherit;
+    color: #000000;
+    text-align: center;         /******to allign at centre (other two columns)*******/
+    padding: 1%;
+    border-radius: 8px;
+    font-size: 20px;
+    opacity: 0.7;               /************Opacity is between 0.6 and 0.8**********/
+}
+
+table td:first-child{
+    background-color: #E0FFFF;
+    font-family: fangsong, inherit;
+    color: #000000;
+    text-align: left;            /***********to left allign first column************+*/
+    padding: 1%;
+    border-radius: 8px;
+    font-size: 20px;
+    opacity: 0.7;                /*************Opacity is between 0.6 and 0.8*********/
+}
+
+table td:hover{                                                       
+    opacity: 1;                  /****************Makes Opacity 1 when you hover********/
+}
+table td:first-child:hover{
+    opacity: 1;                  /****************Makes Opacity 1 when you hover********/
+}
+
+table th{                        /******************Styling Table Heading****************/
+    background-color: #6B8E23;
+    font-family: fangsong, inherit;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border-bottom: solid 2px;
+    border-bottom-color: #ADFF2F;
+    font-size: 20px;
+    text-align: left;
+    padding: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    column-span: 2%;
+}
+
+table{                            /******************Styling remaining Table***************/
+    box-shadow: 3px 3px 5px 3px #66CDAA;
+    border-radius: 8px;
+}
